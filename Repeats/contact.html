@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Access Review</title>
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
+    <meta charset="UTF-8">
+  <meta name="description" content="CDM Web Development 2 repeat">
+  <meta name="keywords" content="HTML, CSS, CDM">
+  <meta name="author" content="Aoghan Mc Connell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head> 
+        <body>
+            <div class="title">
+              
+           <h1 id="main-heading"> Access Review</h1>
+            </div>
+    <div class="navbar">
+    <ul>
+           <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li class="dropdown">
+            <a href="accessibility.html">Accessibility</a>
+            <ul class="dropdown-content">
+                <li><a href="assesment.html">Assessment</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</div>
+            <script>
+        const dropdownItems = document.querySelectorAll('.dropdown');
+        
+        dropdownItems.forEach(item => {
+            const dropdownContent = item.querySelector('.dropdown-content');
+            
+            item.addEventListener('mouseenter', () => {
+                dropdownContent.classList.add('active');
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                dropdownContent.classList.remove('active');
+            });
+        });
+    </script>
+
+    <div class="content">
+        <div class="row1"> 
+        <h2>Contact Us</h2>
+            </div>
+    </div>
+
+     <div class="boxes">
+
+            <div class="box">Twitter </div>
+       
+            <div class="box">Instagram</div>
+        
+            <div class="box">Call Us</div>
+
+         
+            </div> 
+            
+            <p>Email: accessreview@gmail.com <br>
+               Phone: 049 9602412
+            </p>
+            
+            <hr>
+             <div class="row"><img class="logo" src="images/ds%20logo.png" alt="Company Logo">
+</div>
+
+            
+</body>
+</html>

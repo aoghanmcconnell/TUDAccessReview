@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Access Review</title>
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
+    <meta charset="UTF-8">
+  <meta name="description" content="CDM Web Development 2 repeat">
+  <meta name="keywords" content="HTML, CSS, CDM">
+  <meta name="author" content="Aoghan Mc Connell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head> 
+        <body>
+            <div class="title">
+              
+            <h1 id="main-heading"> Access Review</h1>
+            </div>
+    <div class="navbar">
+    <ul>
+            <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li class="dropdown">
+            <a href="accessibility.html">Accessibility</a>
+            <ul class="dropdown-content">
+                <li><a href="assesment.html">Assessment</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</div>
+            <script>
+        const dropdownItems = document.querySelectorAll('.dropdown');
+        
+        dropdownItems.forEach(item => {
+            const dropdownContent = item.querySelector('.dropdown-content');
+            
+            item.addEventListener('mouseenter', () => {
+                dropdownContent.classList.add('active');
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                dropdownContent.classList.remove('active');
+            });
+        });
+    </script>
+             <div class="content">
+        <div class="row1"> 
+        <h2>About US</h2>
+                 </div>
+            </div>
+        
+        <div class="boxes2">
+               <div class="box2"><h2>What Is This Page?</h2><br>
+                   <p class="Aboutinfo">Welcome to The Access Review webpage.<br>
+                       
+                       On this website you will find all the information you will need about us and the universal design of our stores.<br>
+                       
+                       We are an independent design critics whom review the Universal Design of supermarkets across Ireland.<br>
+                       
+                       Feel free to navigate our webpage and fill out our survey that will help us improve our page in making it more accessible and universally designed </p></div>
+            
+              
+   
+         <div class="box2"><h2>What is this Project?</h2>
+        <p class="Aboutinfo">This project is for an assignment for one of creative digital media’s modules; universal design. Our task is to research, understand and evaluate a location of  our choice.<br>
+            
+            The factors of understanding and evaluating are the principles of Universal Design.<br>
+            
+            Our target from Universal Design is to make the website easy to access and impairment friendly.
+        
+</p></div>
+      </div>   
+        <hr>
+        
+        <div class="boxes2">
+               <div class="box2"><h2>What are the principles of Universal Design?</h2>
+        <p class="Aboutinfo">Universal Design is all about making stuff that works for everyone, no matter who they are. It's like designing things that are easy to use and don't leave anyone out. There are some important rules for Universal Design: things should be fair for everyone, easy to understand, and not too hard to use. Information should be clear, mistakes should be forgiving, and you shouldn't have to strain yourself. Everything should be just the right size and have enough space. <br>
+            
+            Universal Design is like making things friendly for everyone, so everyone can be happy.</p></div>
+            
+              
+   
+         <div class="box2"><h2>What are the benefits of Universal Design?</h2>
+        <p class="Aboutinfo">
+            Universal Design offers a wide range of advantages.<br> 
+            
+            By prioritizing inclusivity and accessibility, it ensures that environments, products, and services cater to diverse needs and abilities. This fosters a sense of belonging and equal participation, promoting societal diversity.<br>
+            
+            Universal Design can mitigate the need for costly retrofits or adaptations down the line, leading to economic efficiencies.Its user-centered approach enhances usability for everyone, streamlining interactions and reducing barriers.<br>
+            
+            Ultimately, Universal Design stands as a testament to an equitable and progressive ethos, harmonizing with the ideals of an inclusive and forward-thinking society
+        
+</p></div>
+      </div>   
+             <hr>
+            <div class="credits">
+                 <div class="row"><img class="logo" src="images/ds%20logo.png" alt="Company Logo">
+</div>
+            </div>
+            
+    
+    </body>
+    
+</html>

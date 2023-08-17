@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Access Review</title>
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
+    <meta charset="UTF-8">
+  <meta name="description" content="CDM Web Development 2 repeat">
+  <meta name="keywords" content="HTML, CSS, CDM">
+  <meta name="author" content="Aoghan Mc Connell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head> 
+        <body>
+            <div class="title">
+              
+            <h1 id="main-heading"> Access Review</h1>
+            </div>
+    <div class="navbar">
+    <ul>
+           <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li class="dropdown">
+            <a href="accessibility.html">Accessibility</a>
+            <ul class="dropdown-content">
+                <li><a href="assesment.html">Assessment</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</div>
+            <script>
+        const dropdownItems = document.querySelectorAll('.dropdown');
+        
+        dropdownItems.forEach(item => {
+            const dropdownContent = item.querySelector('.dropdown-content');
+            
+            item.addEventListener('mouseenter', () => {
+                dropdownContent.classList.add('active');
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                dropdownContent.classList.remove('active');
+            });
+        });
+    </script>
+            
+              <div class="content">
+        <div class="row1"> 
+        <h2>Accessbility</h2>
+                 </div>
+            </div>
+            
+            <div class="access">
+               <div class="accessrow"><h2>What does accessibility mean?</h2><br>
+                 <div class="accessrow">  <p class="accessinfo">Accessibility entails designing environments, structures, and services in a manner that ensures equal usability and inclusivity for all individuals, irrespective of their varying physical, sensory, or cognitive abilities. This approach, known as universal design, strives to create spaces and systems that are accommodating, navigable, and user-friendly for everyone, thereby fostering a more equitable and accessible environment for diverse needs and preferences. By integrating features like easy navigation, clear communication, and thoughtful layout, universal design ensures that all individuals can engage, participate, and interact independently and comfortably within the designated context.</p></div>
+            </div>
+            </div>
+            
+            <div class="access">
+               <div class="accessrow"><h2>What are some things that we are aiming to look out for inside the supermarket?</h2><br>
+                 <div class="accessrow">  <p class="accessinfo">
+                     We are looking to observe all places we can access and to take note of the universal design and accessibility of the facilities. We hope to help you understand a greater importance when it comes to universal design and the importance of inclusivity. We are looking at the little details which include safety obligations such as railings as well as inclusivity such as the accessibility of stock and signage in the store. We also want to look at the facilities available and look for answers for some questions we have about the place. We want to break down our experience in three different pages; these are<a href="assesment.html"> Assessment</a>, <a href="results.html">Results</a> and<a href="conclusion.html">Conclusion.</a></p> </div>
+            </div>
+            </div>
+         <hr>
+            <div class="row"><img class="logo" src="images/ds%20logo.png" alt="Company Logo">
+</div>
+     
+            
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Access Review</title>
+   <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
+    <meta charset="UTF-8">
+  <meta name="description" content="CDM Web Development 2 repeat">
+  <meta name="keywords" content="HTML, CSS, CDM">
+  <meta name="author" content="Aoghan Mc Connell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head> 
+        <body>
+            <div class="title">
+              
+            <h1 id="main-heading"> Access Review</h1>
+            </div>
+    <div class="navbar">
+    <ul>
+            <li><a href="index.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li class="dropdown">
+            <a href="accessibility.html">Accessibility</a>
+            <ul class="dropdown-content">
+                <li><a href="assesment.html">Assessment</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</div>
+            <script>
+        const dropdownItems = document.querySelectorAll('.dropdown');
+        
+        dropdownItems.forEach(item => {
+            const dropdownContent = item.querySelector('.dropdown-content');
+            
+            item.addEventListener('mouseenter', () => {
+                dropdownContent.classList.add('active');
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                dropdownContent.classList.remove('active');
+            });
+        });
+    </script>
+            
+              <div class="content">
+        <div class="row1"> 
+        <h2>Conclusion</h2>
+                 </div>
+            </div>
+            
+            <div class="boxes2">
+               <div class="box2">
+                   <p class="Aboutinfo">In conclusion we found that the store is mostly accessible for walking and transport as it is in a positive and safe location with a 24/7 bus access. The problem with these busses is that there is no timetables or shelter at them which is problematic for anyone whom doesn’t know how to find times online.  The entrances all have ramps and flush entrances which makes them wheelchair accessible, the two carparks also prioritise this accessibility as all disabled car spaces are near the entrances. The car parks are spacious and are very visually accessible which in conclusion means that they’re very safe from cars. 
+ </p></div>
+            </div>
+            
+            <div class="boxes2">
+               <div class="box2">
+                   <p class="Aboutinfo">
+Inside the shopfloor is spacious with plenty of helpful staff that were happy to answer our questions. They helped us visualise the work place from behind the scenes very well. 
+Even though the store is spacious the shelving is far too high but the staff are always happy to help which is a helpful benefit. The store could do with more signage as well. We also the store having a disabled/elderly only checkout was very beneficial and also extremely thoughtful. The store could really also benefit from a sensory hour which would help people with sensory issues. In conclusion the shop floor helped us learn a lot about the universal design and the standards that should be met in retail. 
+
+
+ </p></div>
+            </div>
+      <hr>
+           <div class="row"><img class="logo" src="images/ds%20logo.png" alt="Company Logo">
+</div>
+            
+</body>
+</html>
